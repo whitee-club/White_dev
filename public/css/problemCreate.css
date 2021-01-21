@@ -1,0 +1,103 @@
+body {
+
+    background: #f0f2f5;
+
+}
+.bg{
+    margin-top: 145px;
+}
+
+@media (max-width: 768px) {
+
+    .bg {
+        display: none;
+        visibility: collapse;
+    }
+
+    .eye {
+        display: none;
+    }
+
+    .daddy-div {
+        margin-top: 20px !important;
+    }
+
+    .disclaimer {
+        height: 200px !important;
+        margin-bottom: 20px;
+
+    }
+
+    .thinkMob {
+        margin-top: 250px;
+
+    }
+
+    .thinkMob img {
+        height: 200px;
+        width: 100%;
+    }
+
+}
+
+.stare img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 400px;
+    margin: 0;
+}
+
+.bg img {
+    overflow: hidden;
+    width: 300px;
+}
+
+.daddy-div {
+    /*border: solid;*/
+    z-index: 1;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.disclaimer {
+    height: 395px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.10);
+    background-color: #b9cdcc59;
+    padding: 10px;
+}
+
+.daddy-div textarea {
+    position: relative;
+    height: 398px !important;
+    resize: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.10);
+    color: white;
+    background-color: #404450;
+}
+
+.daddy-div button {
+    margin-top: 10px;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #304157;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    border: solid #304157;
+}
+
+.eye img {
+    position: absolute;
+    height: 200px;
+    bottom: 60px;
+}
+
+
+@media (max-width: 800px) {
+    .stare {
+        display: none;
+    }
+}

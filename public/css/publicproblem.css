@@ -1,0 +1,151 @@
+
+.addNew {
+	display: inline-block;
+	display:flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: baseline;
+	
+}
+
+.addNew img {
+	margin-left: 200px;
+	height: 65px;
+}
+.addNew h3 {
+	margin-left: 250px;
+}
+
+
+.daddy-div {
+overflow: auto;
+width: 70%;
+height: auto;
+
+background: #404450;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+margin: auto;
+margin-top: 29px;
+margin-bottom: 15px;
+}
+.daddy-div i {
+	float: right;
+	margin-right: 20px;
+	margin-top: 9px; 
+color: white;
+top: -2px;
+left: 980px;
+}
+
+.problem {
+padding: 10px 15px 10px 15px;
+color: black;
+margin: auto;
+margin-top:8px;
+width: 95%;
+height: auto;
+background: #FFFFFF;
+border-radius: 10px;
+font-size: 1.3vw;
+}
+
+
+.respond {
+border: none;
+float: right;
+background-color: #404450;
+border-radius: 8px;
+color: white;
+width: 120px;
+height: 34px;
+font-weight: bolder;
+margin-top: 10px;
+margin-right: 15px;
+margin-bottom: 10px; 
+left: 855px;
+box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.query {
+	position: relative;
+	display: inline-block;
+	left: 30px;
+	color: white;
+	top: 0px;
+	font-family: roboto;
+	font-size: 24px;
+	letter-spacing: 1px;
+	
+}
+
+
+body {
+    background-color: #f0f2f5;
+
+}
+
+@media (max-width: 768px) {
+
+	 .addNew h3{
+	 	width: fit-content;
+	 	margin-left: 0px;
+	 	font-size: 20px;
+	 	margin-left:20px;
+	 	
+	 }
+
+
+	 .addNew{
+	 	
+	 	display: flex;	
+	 	justify-content: center;
+	 	align-items: flex-end;
+	 	
+
+	 }
+	 .addNew img {
+	 
+	 	margin-left: 0px;
+	 	height: 40px;
+
+	 }
+	 .daddy-div{
+	overflow: auto;
+width: 90%;
+height: auto;
+background: #404450;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+margin: auto;
+margin-top: 29px;
+margin-bottom: 15px;
+
+
+	 } 
+	 
+	 .daddy-div i {
+	 	margin-top: 10px;
+	 	margin-right: 8px;
+
+}
+.problem {
+	font-size: 1em;
+	margin-top: 4px;
+}
+
+.respond {
+	width: 90px;
+	height: 30px;
+	border-radius: 5px;
+	font-size: 13px;
+	
+}
+.query {
+font-size: 18px;
+
+}
+
+}

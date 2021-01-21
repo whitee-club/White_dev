@@ -1,0 +1,237 @@
+@media (min-width: 992px) {
+
+
+    #logo {
+        position: relative;
+
+        top: 200px;
+        left: 20.5%;
+        height: 100px;
+        width: 160px;
+
+    }
+
+    #tagline {
+        position: absolute;
+        top: 330px;
+        
+        
+
+    }
+
+    .tagline {
+        display: none;
+    }
+
+
+
+    .right-div {
+
+        position: relative;
+        top: 10px;
+        left: 750px;
+        background-color: white;
+        height: 400px;
+        width: 450px;
+        border-width: 5;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+    }
+
+    .click-here {
+        margin-top: 90px;
+        text-align: center;
+    }
+
+    body {
+
+        background-color: #f0f2f5;
+
+    }
+
+
+    .inputs {
+        position: relative;
+        top: 30px;
+
+    }
+
+    .inputs span {
+        display: inline-block;
+        position: relative;
+        top: 20px;
+        height: 20px;
+        left: 73px;
+        color: red;
+        width: 300px;
+
+    }
+
+    .inputs input {
+
+        position: relative;
+        left: 75px;
+        top: 10px;
+        margin-top: 15px;
+        height: 40px;
+        width: 300px;
+        font-size: 18px;
+
+    }
+
+    .inputs button {
+
+        position: relative;
+        width: 140px;
+        height: 37px;
+        left: 150px;
+        top: 40px;
+        color: #7b7f78;
+        font-family: roboto;
+        border-color: #e2e2e2;
+        font-weight: 800;
+        font-size: 17px;
+        background: #e2e2e2;
+        border-radius: 5px;
+    }
+
+    .fpass {
+        text-align: center;
+        font-size: smaller;
+        margin-top: 60px;
+    }
+
+    .fpass a {
+        font-size: x-small;
+        text-decoration: none;
+    }
+
+    .fpass a:visited {
+        color: #7b7f78;
+    }
+
+    .click-here a {
+
+        text-decoration: none;
+        color: #707570;
+
+    }
+
+
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto !important;
+    background: #f0f2f5;
+
+}
+
+
+@media (max-width: 768px) {
+
+    #logo {
+        display: block;
+        height: 90px;
+        width: 160px;
+        margin: auto;
+        margin-top: 60px;
+    }
+
+    #tagline {
+
+        display: none;
+    }
+
+    .tagline {
+        overflow: auto;
+        color: #7b7f78;
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+
+    .apts {
+        margin-bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 8em;
+    }
+
+    .wnc {
+        position: relative;
+        left: 20px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 10em;
+    }
+
+    .right-div {
+        margin: auto;
+        margin-top: 60px;
+        width: 300px;
+        height: 300px;
+        border-radius: 1rem;
+        background: white;
+        overflow: auto;
+        box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1), -1px -1px 4px rgba(193, 188, 188, 0.09);
+    }
+
+    .inputs {
+        position: relative;
+        top: 3rem;
+        margin: auto;
+    }
+
+    .right-div input {
+        display: block;
+        margin: auto;
+        height: 30px;
+        width: 80%;
+        background: #EBEBEB;
+        font-weight: 600;
+        border: none;
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
+
+    .right-div .login {
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+        border: none;
+        width: 75px;
+        height: 30px;
+        color: #757575;
+        box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+        font-weight: 800;
+    }
+
+    .fpass {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .fpass a {
+        font-size: xx-small;
+        text-decoration: none;
+        color: #7b7f78;
+    }
+
+    .fpass a:visited {
+        color: #7b7f78;
+    }
+
+    .click-here {
+        text-align: center;
+        margin-top: 35px;
+    }
+
+    .click-here a {
+        color: #757575;
+        text-decoration: none;
+    }
+}

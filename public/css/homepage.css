@@ -1,0 +1,783 @@
+@media (max-width: 991px) {
+
+    .daddy-link {
+        width: 85%;
+        background-color: white;
+        margin: auto;
+        margin-top: 20px;
+        overflow: auto;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.10);
+        border-radius: 8px;
+    }
+
+
+
+    .link-header {
+
+        width: fit-content;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .link-header h4 {
+        font-size: 1rem;
+        width: fit-content;
+    }
+
+    .link-header h4 img {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .link {
+        display: block;
+        width: 90%;
+        margin: auto;
+        background: #F1F2F6;
+        border-radius: 6px;
+        border: none;
+        margin: 8px auto 0px;
+        padding: 3px 3px;
+        text-align: center;
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.05);
+    }
+
+
+    .link-but {
+        margin-top: 15px;
+        margin-bottom: 10px;
+        float: right;
+        margin-right: 20px;
+        background: #304057;
+        border: none;
+        padding: 5px 15px;
+        border-radius: 8px;
+        color: white;
+    }
+
+    .toggle {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: 30px;
+        margin: auto;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .allConfessions button{
+        text-align: center;
+        border: solid;
+        width: fit-content;
+        color: #304157;
+        border-radius: 8px;
+        border-width: 1px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.10);
+        border-color: #304057;
+    }
+
+    .allConfessions button:hover,
+    .allConfessions button:focus{
+        background: #304157;
+        color: white;
+        /*padding: 5px 20px;*/
+        border-radius: 8px;
+    }
+
+    .count {
+        width: fit-content;
+        padding: 0px 8px;
+        background: white;
+        border-radius: 5px;
+
+    }
+
+    .acc {
+        display: flex;
+    }
+
+
+    .recieved button{
+        text-align: center;
+        border: solid;
+        width: fit-content;
+        margin-right: 10px;
+        color: #304157;
+        border-radius: 8px;
+        border-width: 1px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.10);
+        border-color: #304057;
+    }
+
+    .recieved button:hover,
+    .recieved button:focus {
+        background: #304157;
+        color: white;
+        /*padding: 5px 15px;*/
+        border-radius: 8px;
+    }
+
+    .resp a {
+        text-decoration: none;
+        color: #304157;
+    }
+
+    .resp button:hover,
+    .resp button:focus {
+        background: #304157;
+        color: white;
+        /*padding: 5px 15px;*/
+        border-radius: 8px;
+    }
+
+    .resp button {
+        text-align: center;
+        border: solid;
+        border-radius: 8px;
+        /*height: 40px;*/
+        margin-top: 15px;
+        color: #304157;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.10);
+        border-width: 1px;
+    }
+
+    .resp a:hover {
+        color: white;
+    }
+
+    .confession {
+        position: relative;
+        top: 60px;
+        width: 90%;
+        margin: auto;
+        background: white;
+        border-radius: 8px;
+        height: auto;
+        overflow: auto;
+        margin-bottom: 15px;
+
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    }
+
+    .confession img {
+        width: 1rem;
+        height: 1rem;
+        float: right;
+        margin-top: 5px;
+    }
+
+    .written {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: baseline;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .written h3 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 5px;
+        font-size: medium;
+        font-weight: 500 !important;
+    }
+
+    .written h1 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: larger;
+        margin-left: 5px;
+    }
+
+    .written b {
+        margin-left: 5px;
+    }
+
+    .body {
+        margin-top: 10px;
+        margin-left: 15px;
+        height: auto;
+        letter-spacing: 2px;
+    }
+
+    .chat-bt {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        float: right;
+        margin-right: 30px;
+        background: #304057;
+        border: none;
+        padding: 5px 15px;
+        border-radius: 8px;
+        color: white;
+    }
+
+    .replies-daddy {
+        overflow: auto;
+        width: 95%;
+        margin: 60px auto 0px;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    }
+
+    .replies-daddy img {
+        width: 1rem;
+        height: 1rem;
+        float: right;
+    }
+
+
+    .replies-daddy i {
+        float: right;
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+
+    .question {
+        width: 90%;
+        margin: 20px auto 0px;
+        padding: 15px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.03), 0px -4px 4px rgba(0, 0, 0, 0.03);
+    }
+
+
+    .question h3 {
+        font-size: 1rem;
+    }
+
+    .answer {
+
+        border-radius: 8px;
+        padding: 5px 10px 3px;
+        width: 90%;
+        margin: 10px auto 0px;
+        background: #304157;
+        color: white;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.03);
+
+
+    }
+
+    .answer h4 {
+        font-size: 1.2rem;
+    }
+
+    .emoji-toggle {
+        width: 95%;
+        margin: 10px auto 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .emoji-toggle i {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.10);
+        border-radius: 50%;
+
+    }
+
+    .emoji-toggle button {
+        border: none;
+        background: white;
+    }
+
+
+
+    .emoji-toggle img {
+        width: 2rem;
+        height: 2rem;
+    }
+
+
+    .fa-grin-beam {
+        color: #FBDE44FF;
+    }
+
+    .fa-meh {
+        color: #f65058ff;
+    }
+
+    .fa-smile {
+        color: #0e7fbf;
+    }
+
+    .comment input {
+        width: 100%;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+        background: #ebebeb;
+        border: none;
+
+    }
+
+    .comment {
+        margin: auto;
+        width: 95%;
+    }
+
+    .nr {
+        margin: 70px auto 0px;
+    }
+
+    .nr h3,
+    .nr h4 {
+        text-align: center;
+    }
+
+    .nr img {
+        width: 1.4rem;
+        height: 1.4rem;
+    }
+
+    .cf {
+        margin: 70px auto 0px;
+    }
+
+    .cf h3,
+    .cf h4 {
+        text-align: center;
+    }
+}
+
+
+
+
+@media (min-width: 992px) {
+
+    .daddy-link {
+        position: relative;
+        max-width: 1150px;
+        height: 220px;
+        margin: auto;
+        top: 20px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.10);
+        border-radius: 16px;
+        margin-bottom: 50px;
+    }
+
+    .link-header {
+        position: relative;
+        width: 290px;
+        letter-spacing: 2px;
+        font: bold;
+        height: 33px;
+        left: 32px;
+        font-weight: 800;
+        font-size: 3em;
+        top: 10px;
+        padding-left: 8px;
+        background: #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 16px;
+    }
+
+    .link-header h4 img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+
+    .link {
+        position: relative;
+        color: black;
+        width: 1050px;
+        height: 45px;
+        left: 25px;
+        top: 24px;
+        color: #696969;
+        font-family: roboto, sans-serif;
+        font-size: 120%;
+        padding-top: 7px;
+        letter-spacing: 3px;
+        font-weight: 800;
+        padding-left: 50px;
+        background: #F0F2F5;
+        border-radius: 14px;
+        border: none;
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.05);
+    }
+
+    .daddy-link button {
+        position: relative;
+        width: 124px;
+        height: 41.6px;
+        left: 980px;
+        top: 75px;
+        color: white;
+        font-family: arial;
+        font-weight: 800;
+        font-size: 1.3em;
+        border-color: #304157;
+        background-color: #304157;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 14px;
+    }
+
+    .daddy-link i {
+        position: relative;
+        right: 10px;
+    }
+
+
+
+
+    .progress-bar {
+        position: absolute;
+        width: 450px;
+        height: 110px;
+        left: 70px;
+        top: 289px;
+        background: #EBEFF2;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 16px;
+    }
+
+
+
+    .bar-header {
+        position: relative;
+        width: 100%;
+        height: 30px;
+        top: 10px;
+        padding-right: 70%;
+        font-family: arial;
+        font-size: 25px;
+        font-weight: 800;
+        color: white;
+        background: #4f327e;
+    }
+
+
+    #progress {
+
+        width: 98%;
+        margin-top: 32px;
+        background-color: white;
+        border-radius: 14px;
+
+    }
+
+    #myBar {
+        width: 30%;
+        height: 15px;
+        background-color: #4f327e;
+        border-radius: 14px;
+
+    }
+
+    body {
+
+        background-attachment: fixed;
+        background-repeat: repeat-x;
+        background-color: #f0f2f5;
+    }
+
+
+    .toggle {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+
+    .count {
+        text-align: center;
+        width: 30px;
+        color: black;
+        height: 25px;
+        font-weight: bolder;
+        margin: 5px 20px 0px;
+        background: #FFFFFF;
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+    }
+
+    .acc {
+        display: flex;
+    }
+
+    .allConfessions button {
+        text-align: center;
+        border: solid;
+        width: 198px;
+        height: 40px;
+        /*padding-top: 6px;*/
+        font-size-adjust: 0.50;
+        color: #304157;
+        border-radius: 8px;
+        border-width: 1px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.10);
+        border-color: #304057;
+
+
+    }
+
+    .allConfessions button:hover,
+    .allConfessions button:focus {
+        text-align: center;
+        width: 198px;
+        height: 40px;
+        border-radius: 8px;
+        /*padding-top: 6px;*/
+        font-size-adjust: 0.50;
+        color: white;
+        background-color: #304157;
+    }
+
+    .recieved button {
+        text-align: center;
+        border: solid;
+        width: 119px;
+        height: 40px;
+        border-radius: 8px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.10);
+        border-width: 1px;
+        /*padding-top: 6px;*/
+        font-size-adjust: 0.50;
+        color: #304157;
+    }
+
+    .recieved button:hover,
+    .recieved button:focus {
+        text-align: center;
+        width: 119px;
+        height: 40px;
+        border-radius: 8px;
+        /*padding-top: 6px;*/
+        font-size-adjust: 0.50;
+        color: white;
+        background-color: #304157;
+    }
+
+    .resp a {
+        text-decoration: none;
+    }
+
+    .resp button{
+        text-align: center;
+        width: 119px;
+        border: solid;
+        border-radius: 8px;
+        height: 40px;
+        color: #304157;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.10);
+        border-width: 1px;
+
+    }
+
+    .resp button:hover,
+    .resp button:focus {
+        text-align: center;
+        color: white;
+        width: 119px;
+        height: 40px;
+        border-radius: 8px;
+        /*padding-top: 6px;*/
+        font-size-adjust: 0.50;
+        background-color: #304157;
+    }
+
+
+    .confession {
+        margin: auto;
+        border-radius: 7px;
+        margin-top: 30px;
+        height: auto;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.10);
+        background: white;
+        border-radius: 8px;
+        margin-bottom: 15px;
+        overflow: auto;
+        width: 1200px;
+
+    }
+
+    .confession img {
+        width: 1.2rem;
+        height: 1.2rem;
+        float: right;
+        margin-top: 5px;
+    }
+
+    .body {
+        position: relative;
+        top: -30px;
+        padding: 10px 60px 0px 60px;
+        margin-top: 25px;
+        font-style: roboto;
+        height: auto;
+        font-size: 1.3vw;
+    }
+
+
+    .written {
+        height: 70px;
+        position: relative;
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+
+    .written h3 {
+        display: inline;
+        color: #304157;
+        font-weight: bolder;
+    }
+
+    .written b {
+        position: relative;
+        text-align: center;
+        display: inline;
+        top: -4px;
+    }
+
+    .written h1 {
+        display: inline;
+        padding-right: 10px;
+        padding-left: 10px;
+        text-align: center;
+        width: 20px;
+    }
+
+    .confession button {
+        position: relative;
+        border: solid #304157;
+        padding: 1px 19px 1px 19px;
+        border-radius: 5px;
+        background-color: #304157;
+        color: white;
+        font-weight: bolder;
+        font-size: 1.2vw;
+        left: 1070px;
+        top: -25px;
+    }
+
+    .replies-daddy {
+        width: 85%;
+        margin: 40px auto;
+        overflow: auto;
+        margin-bottom: 15px;
+        background: white;
+        border-radius: 5px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.10);
+    }
+
+    .replies-daddy img {
+        width: 1.2rem;
+        height: 1.2rem;
+        float: right;
+    }
+
+    .list {
+        float: right;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    .question {
+        width: 95%;
+        padding: 10px 10px 10px 10px;
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        border-radius: 8px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.10), 0px -4px 4px rgba(0, 0, 0, 0.10);
+
+    }
+
+    .answer {
+
+        border-radius: 8px;
+        padding: 10px 10px 10px 10px;
+        width: 95%;
+        margin: auto;
+        background: #304157;
+        color: white;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.10);
+
+    }
+
+    .emoji-toggle {
+        width: 95%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+
+    }
+
+    .emoji-toggle i {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.10);
+        border-radius: 50%;
+
+    }
+
+    .emoji-toggle button {
+        border: none;
+    }
+
+    .emoji-toggle button:hover {
+        border: none;
+    }
+
+    .emoji-toggle img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .fa-grin-beam {
+        color: #FBDE44FF;
+    }
+
+    .fa-meh {
+        color: #f65058ff;
+    }
+
+    .fa-smile {
+        color: #0e7fbf;
+    }
+
+
+    .comment input {
+        width: 100%;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.10);
+
+    }
+
+    .comment {
+        margin: auto;
+        width: 95%;
+
+
+    }
+
+    .nr {
+        margin-top: 40px;
+    }
+
+    .nr h3,
+    .nr h4 {
+        text-align: center;
+    }
+
+    .nr img {
+        width: 1.4rem;
+        height: 1.4rem;
+    }
+
+    .cf {
+        margin-top: 40px;
+    }
+
+    .cf h3,
+    .cf h4 {
+        text-align: center;
+    }
+
+}

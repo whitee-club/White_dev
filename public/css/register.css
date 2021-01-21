@@ -1,0 +1,209 @@
+
+
+ @media (min-width: 992px) {
+
+.male{
+        margin-left: 60px;
+
+}
+
+.female{
+    margin-left: 127px;
+}
+ 
+.gender{
+        color: #94a0ab;
+        display: flex;
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    .gender input[type=radio] {
+          border: 0px;
+          position: relative;
+          left: 30px;
+    width: 4vmin;
+    height: 4vmin;
+    margin-top: 3px;
+    }
+
+
+#logo {
+	position: relative;
+
+        top: 200px;
+        left: 20.5%;
+        height: 100px;
+        width: 160px;
+}
+#tagline{
+	
+position: absolute;
+        top: 330px;
+}
+
+.tagline {
+    display: none;
+}
+
+
+.right-div {
+
+
+	 position: relative;
+        top: 10px;
+        left: 750px;
+        background-color: white;
+        height: 400px;
+        width: 450px;
+        border-width: 5;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+}
+
+ body {
+ 	
+	background-color: #f0f2f5;
+	
+
+}
+
+
+
+.inputs {
+	position: relative;
+	top: 30px;
+	
+
+}
+
+.inputs input{
+	position: relative;
+	left: 75px;
+	margin-top: 10px;
+	height: 40px;
+	width: 300px; 
+
+  font-size: 18px;
+ 
+}
+
+
+
+.inputs button {
+
+	position: relative;
+width: 140px;
+height: 37px;
+left:150px;
+top: 30px;
+color: #7b7f78;
+font-family: roboto;
+font-weight: 800;
+font-size: 17px;
+background: #e2e2e2;
+border-radius: 5px;
+border: none;
+box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.15);
+
+
+}
+ }
+
+
+ html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto !important;
+    background: #f0f2f5;
+}
+
+@media (max-width: 768px) {
+    .gender{
+        color: #94a0ab;
+        display: flex;
+        margin-left: 30px;
+    }
+    .gender input[type=radio] {
+          border: 0px;
+          margin-top: 5px;
+    width: 3vmin;
+    height: 3vmin;
+    }
+
+   #logo {
+        display: block;
+        height: 110px;
+        width: 210px;
+        margin:  auto;
+        margin-top: 40px;
+    }
+
+    #tagline {
+        display: none;
+    }
+
+    .tagline {
+        overflow: auto;
+        color: #7b7f78;
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+
+    .apts {
+        margin-bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 8em;
+    }
+
+    .wnc {
+        position: relative;
+        left: 20px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 10em;
+    }
+
+    .right-div {
+        margin: auto;
+        margin-top: 50px;
+        width: 300px;
+        height: 375px;
+        border-radius: 1rem;
+        background: white;
+        overflow: auto;
+        box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1), -1px -1px 4px rgba(193,188,188, 0.09) ;
+    }
+
+    .inputs {
+        position: relative;
+        top: 3rem;
+        margin: auto;
+    }
+
+    .right-div input {
+        display: block;
+        margin: auto;
+	    height: 30px;
+        width: 80%;
+        background: #EBEBEB;
+        font-weight: 600;
+        border: none;
+        margin-bottom: 30px;
+        border-radius: 5px;
+    }
+
+    .register {
+        display: block;
+        margin: auto;
+        border: none;
+        width: 75px;
+        height: 30px;
+        color: #757575;
+        box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+        font-weight: 800;
+    }
+}
